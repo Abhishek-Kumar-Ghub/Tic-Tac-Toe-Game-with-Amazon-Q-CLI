@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/7780d7e8-7f4e-4f9d-aa52-1794e477dade)
+
 **🎮 Tic-Tac-Toe with Amazon Q CLI 🧠**
 Ever thought a simple prompt could make a full game? 🤯
 Using Amazon Q CLI, I quickly created this classic Tic-Tac-Toe in Python with a smooth GUI via Pygame. 🐍🕹️

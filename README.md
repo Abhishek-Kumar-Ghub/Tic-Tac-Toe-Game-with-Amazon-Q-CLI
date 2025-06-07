@@ -14,7 +14,7 @@ Python 3
 Pygame (pip install pygame or sudo apt-get install python3-pygame)
 
 **🚀 Get Started**
-git clone https://github.com/rishikhandekar/QCli-Tic-Tac-Toe-Game
+git clone [https://github.com/rishikhandekar/QCli-Tic-Tac-Toe-Game](https://github.com/Abhishek-Kumar-Ghub/Tic-Tac-Toe-Game-with-Amazon-Q-CLI)
 cd QCli-Tic-Tac-Toe-Game
 python3 tic_tac_toe.py
 

@@ -1,97 +1,49 @@
-# Tic-Tac-Toe
+**🎮 Tic-Tac-Toe with Amazon Q CLI 🧠**
+Ever thought a simple prompt could make a full game? 🤯
+Using Amazon Q CLI, I quickly created this classic Tic-Tac-Toe in Python with a smooth GUI via Pygame. 🐍🕹️
 
- Check this out! 👇 I leveraged Amazon Q CLI with a simple prompt to instantly generate a complete, classic two-player Tic-Tac-Toe game in Python using Pygame.
+**✨ Highlights**
+🧑‍🤝‍🧑 2-Player Mode – Take turns on the same system
+🟦 Intuitive Interface – Clear 3x3 grid layout
+✅ Win/Draw Check – Knows who wins or if it’s a tie
+🔁 Easy Reset – Press a key or click to replay
+🎯 Turn Tracker – Know whose move is next
 
- ## Features
+**🔧 What You Need**
+Python 3
+Pygame (pip install pygame or sudo apt-get install python3-pygame)
 
- - **Clean, Visual Interface**: 3x3 grid with clear X and O markers
- - **Two-Player Gameplay**: Take turns with a friend on the same computer
- - **Win Detection**: Automatically detects winning combinations (rows, columns, diagonals)
- - **Draw Detection**: Identifies when the game ends in a draw
- - **Game Status Display**: Shows whose turn it is and game results
- - **Easy Restart**: Reset the game with a button click or keyboard press
+**🚀 Get Started**
+git clone https://github.com/rishikhandekar/QCli-Tic-Tac-Toe-Game
+cd QCli-Tic-Tac-Toe-Game
+python3 tic_tac_toe.py
 
- ## Requirements
+**🕹️ How to Play**
+Click a tile to place X or O
+X starts first
+First to match 3 in a row/col/diagonal wins
+No space left = Draw
+Press R or use the button to restart
 
- - Python 3.x
- - Pygame library
+**🗂️ Inside the Code**
+🎨 Drawing – Grid, marks, messages
+🧠 Logic – Turn handling, win/draw checks
+🖱️ Input – Clicks & keyboard
+♻️ Restart – Game refresh feature
 
- ## Installation
+**🎨 Make It Yours**
+Customize easily:
+Size (WIDTH, HEIGHT)
+Line styles & colors
+Grid size (designed for 3x3)
 
- 1. Clone this repository:
-    ```
-    git clone https://github.com/rishikhandekar/QCli-Tic-Tac-Toe-Game
-    ```
+**📜 License**
+MIT License – See LICENSE file
 
- 2. Install the required dependencies:
-    ```
-    # Using pip
-    pip install pygame
+**🙌 Thanks To**
+Pygame team
+The timeless Tic-Tac-Toe inspiration
 
-    # Or using apt on Debian/Ubuntu
-    sudo apt-get install python3-pygame
-    ```
-
- ## How to Play
-
- 1. Run the game:
-    ```
-    python3 tic_tac_toe.py
-    ```
-
- 2. Game Rules:
-    - Players take turns placing their mark (X or O) on the board
-    - Player X always goes first
-    - Click on an empty square to place your mark
-    - Get three of your marks in a row, column, or diagonal to win
-    - If all squares are filled with no winner, the game ends in a draw
-
- 3. Controls:
-    - **Mouse Click**: Place your mark on the board
-    - **R Key**: Reset the game at any time
-    - **Play Again Button**: Appears after a game ends
-
-
- ## Games Video
-
- [I Build a Tic-Tac-Toe Game with Amazon Q CLI | Build Games with Amazon Q CLI](https://youtu.be/h6l0PJ-4-5M?si=lG_IMtyhVrGxo4u_&t=527)
-
- ## Code Structure
-
- The game is contained in a single Python file (`tic_tac_toe.py`) and uses the following components:
-
- - **Pygame Setup**: Initializes the game window and basic settings
- - **Game Board**: Manages the 3x3 grid and game state
- - **Drawing Functions**: Renders the grid, X's, O's, and status messages
- - **Input Handling**: Processes mouse clicks and keyboard input
- - **Game Logic**: Checks for wins, draws, and manages player turns
- - **Reset Functionality**: Allows starting a new game
-
- ## Customization
-
- You can easily customize the game by modifying these variables at the top of the script:
-
- - `WIDTH`, `HEIGHT`: Change the window dimensions
- - `LINE_WIDTH`: Adjust the thickness of grid lines
- - `BOARD_SIZE`: Change the grid size (though win logic is designed for 3x3)
- - `CIRCLE_RADIUS`, `CIRCLE_WIDTH`, `CROSS_WIDTH`: Modify the appearance of X's and O's
- - Color constants: Change the game's color scheme
-
- ## License
-
- This project is licensed under the MIT License - see the LICENSE file for details.
-
- ## Acknowledgments
-
- - Built with [Pygame](https://www.pygame.org/)
- - Inspired by classic Tic-Tac-Toe gameplay
-
- ## Contributing
-
- Contributions are welcome! Please feel free to submit a Pull Request.
-
- 1. Fork the repository
- 2. Create your feature branch
- 3. Commit your changes
- 4. Push to the branch
- 5. Open a Pull Request
+**🤝 Contributions**
+Feel free to fork and open PRs!
+Ideas and improvements are always welcome 💡
